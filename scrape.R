@@ -15,7 +15,7 @@ page <- read_html(url)
 
 Bitcoin <- page %>% html_table() %>%
   as.data.frame() %>%  
-  subset(Rank == 1 ) %>%
+  #subset(Rank == 1 ) %>%
   select(-8)
 
 message("Connect to database")
