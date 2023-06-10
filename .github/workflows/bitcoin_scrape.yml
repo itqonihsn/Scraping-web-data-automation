@@ -1,8 +1,7 @@
 name: Bitcoin Scraping
 
 on:
-  schedule:
-      - cron: '0 * * * *'  # every 7 minutes
+  workflow_dispatch
 
 
 jobs:
