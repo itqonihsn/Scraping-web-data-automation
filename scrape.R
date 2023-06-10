@@ -18,19 +18,18 @@ Bitcoin <- page %>% html_table() %>%
   subset(Rank == 1 ) %>%
   select(-8)
 
-Bitcoin
-
-message("Connect to MongoDB Cloud")
-atlas <- mongo(
-  collection = Sys.getenv("ATLAS_COLLECTION"),
-  db         = Sys.getenv("ATLAS_DB"),
-  url        = Sys.getenv("ATLAS_URL")
-)
+message("Connect to database")
+db <- Sys.getenv("ATLAS_DB")
+url <- Sys.getenv("ATLAS_URL")
+collection <- Sys.getenv("ATLAS_COLLECTION")
+con <- mongo(collection = collection,
+             db = db,
+             url = url)
 
 # covid <- data.frame(no=integer(), cases=character(), deaths=character(), recovered=character())
 message("Store data frame into mongo cloud")
-newdata <- cbind(no = atlas$count() + 1, Bitcoin)
+newdata <- cbind(no = con$count() + 1, Bitcoin)
 
-atlas$insert(newdata)
+con$insert(newdata)
 
-atlas$disconnect()
+con$disconnect()
