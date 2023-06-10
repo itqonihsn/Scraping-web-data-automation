@@ -5,7 +5,7 @@ on:
 
 
 jobs:
-  covid-scrape:
+  bitcoin-scrape:
     runs-on: macos-latest
     env:
       ATLAS_URL: ${{ secrets.ATLAS_URL }}
