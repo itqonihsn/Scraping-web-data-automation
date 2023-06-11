@@ -2,7 +2,7 @@
 ![Cryptocurrency](https://cdn.wccftech.com/wp-content/uploads/2017/10/cryptojacking-2.jpg)
 # Cryptocurrency Scraping
 
-## Project ini merupakan tugas akhir praktikum Mata Kuliah Manajemen Data Statistika topik Web Scraping & Crawling Sumber data pada scraping ini dari situs https://goldprice.org/cryptocurrency-price/bitcoin-price di mana pada laman tersebut menyajikan live harga, market capitalization, Circulating Supply, dan perubahan harga 24 jam terakhir. Pada situs tersebut, data diupdate setiap detiknya. Scraping dilakukan menggunakan library rvest pada software R dan hasilnya disimpan pada MongoDB Atlas setiap 10 menit sekali dan tabel hasil scraping divisualisasikan dengan Rshiny.
+#### Project ini merupakan tugas akhir praktikum Mata Kuliah Manajemen Data Statistika topik Web Scraping & Crawling Sumber data pada scraping ini dari situs https://goldprice.org/cryptocurrency-price/bitcoin-price di mana pada laman tersebut menyajikan live harga, market capitalization, Circulating Supply, dan perubahan harga 24 jam terakhir. Pada situs tersebut, data diupdate setiap detiknya. Scraping dilakukan menggunakan library rvest pada software R dan hasilnya disimpan pada MongoDB Atlas setiap 10 menit sekali dan tabel hasil scraping divisualisasikan dengan Rshiny.
 
 ### Status Scraping
 [![Bitcoin Scraping](https://github.com/itqonihsn/Scraping-web-data-automation/actions/workflows/bitcoin_scrape.yml/badge.svg)](https://github.com/itqonihsn/Scraping-web-data-automation/actions/workflows/bitcoin_scrape.yml)
@@ -52,7 +52,7 @@ Hasil dari project ini dapat dilihat pada halaman Rshiny apss https://kelompok4m
 https://rpubs.com/Hasan_itqoni/1052894
 
 # Penulis
-## Muhammad Hasan Itqoni 
-## G1501221029
-## 6 Juni 2023
+#### Muhammad Hasan Itqoni 
+#### G1501221029
+#### 6 Juni 2023
 
