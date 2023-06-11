@@ -3,7 +3,7 @@
 [![Bitcoin Scraping](https://github.com/itqonihsn/Scraping-web-data-automation/actions/workflows/bitcoin_scrape.yml/badge.svg)](https://github.com/itqonihsn/Scraping-web-data-automation/actions/workflows/bitcoin_scrape.yml)
 
 https://rpubs.com/Hasan_itqoni/1052894
-
+https://kelompok4mds.shinyapps.io/Scraping-web-data-automation/
 
 {"_id":
   {"$oid":"64829d80ce65eb57da0a4356"},
@@ -27,4 +27,4 @@ https://rpubs.com/Hasan_itqoni/1052894
   }
 }
 
-http://127.0.0.1:4558/
+
