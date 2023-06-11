@@ -7,49 +7,52 @@
 ### Status Scraping
 [![Bitcoin Scraping](https://github.com/itqonihsn/Scraping-web-data-automation/actions/workflows/bitcoin_scrape.yml/badge.svg)](https://github.com/itqonihsn/Scraping-web-data-automation/actions/workflows/bitcoin_scrape.yml)
 
+# Struktur Dokumen
+Berikut ini contoh struktur dokumen hasil scraping
 ```json
 [
   {
-    "_id": "1",
-    "name": "John Doe",
-    "email": "john@example.com"
+    "_id": ObjectId"6483ed58c7f102082a06c771",
+    "no" : 1
+    "Rank": "1",
+    "Currency": "Bitcoin"
+    "Market_Cap_": "510,702,494,841"
+    "Circulatin_Suplly": "19,397,850"
+    "Price": "$26,343.00"
+    "Volume__24h_": "$9,712,774,079"
+    "Change__24h_": "-0.45 %"
+    
   },
   {
-    "_id": "2",
-    "name": "Jane Smith",
-    "email": "jane@example.com"
+    "_id": ObjectId"6483ed58c7f102082a06c772",
+    "no" : 1
+    "Rank": "2",
+    "Currency": "Ethereum"
+    "Market_Cap_": "219,873,620,485"
+    "Circulatin_Suplly": "120,227,838"
+    "Price": "$1,830.26"
+    "Volume__24h_": "$5,049,707,336"
+    "Change__24h_": "-0.23 %"
   },
   {
-    "_id": "3",
-    "name": "Alice Johnson",
-    "email": "alice@example.com"
+    "_id": ObjectId"6483ed58c7f102082a06c773",
+    "no" : 1
+    "Rank": "1",
+    "Currency": "Tether"
+    "Market_Cap_": "83,351,125,139"
+    "Circulatin_Suplly": "83,356,513,307"
+    "Price": "$1.00"
+    "Volume__24h_": "$16,805,016,458"
+    "Change__24h_": "-0.01 %"
   }
 ]
 ```
-
+# Hasil
+Hasil dari project ini dapat dilihat pada halaman Rshiny apss https://kelompok4mds.shinyapps.io/Scraping-web-data-automation/ atau RPubhs
 https://rpubs.com/Hasan_itqoni/1052894
-https://kelompok4mds.shinyapps.io/Scraping-web-data-automation/
 
-{"_id":
-  {"$oid":"64829d80ce65eb57da0a4356"},
-  "Rank": {
-    "String"
-  },
-  "Name": {
-    "String"
-  },
-  "Classical": {
-    "Integer"
-  },
-  "Rapid": {
-    "Integer"
-  },
-  "Blitz": {
-    "Integer"
-  },
-  "Scraping_Date": {
-    "Date Time"
-  }
-}
-
+# Penulis
+## Muhammad Hasan Itqoni 
+## G1501221029
+## 6 Juni 2023
 
