@@ -1,5 +1,6 @@
 # Scraping-web-data-automation
 ![Cryptocurrency](https://cdn.wccftech.com/wp-content/uploads/2017/10/cryptojacking-2.jpg)
+# Cryptocurrency Scraping
 <span style="font-size:100px;"><strong>Teks Bold dan Ukuran Besar</strong></span>
 **Cryptocurreny Scraping Project**
 balabdsabslda
