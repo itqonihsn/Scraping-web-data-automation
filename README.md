@@ -1,4 +1,5 @@
 # Scraping-web-data-automation
+![Cryptocurrency](https://cdn.wccftech.com/wp-content/uploads/2017/10/cryptojacking-2.jpg)
 
 [![Bitcoin Scraping](https://github.com/itqonihsn/Scraping-web-data-automation/actions/workflows/bitcoin_scrape.yml/badge.svg)](https://github.com/itqonihsn/Scraping-web-data-automation/actions/workflows/bitcoin_scrape.yml)
 
